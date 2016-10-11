@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "hoangha_source", "hoangha_source\", "{B23E3FB0-7E6F-4550-8D70-9E5513F2F015}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/hoangha_source"
+		Debug.AspNetCompiler.PhysicalPath = "hoangha_source\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\hoangha_source\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/hoangha_source"
+		Release.AspNetCompiler.PhysicalPath = "hoangha_source\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\hoangha_source\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "32418"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B23E3FB0-7E6F-4550-8D70-9E5513F2F015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23E3FB0-7E6F-4550-8D70-9E5513F2F015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
