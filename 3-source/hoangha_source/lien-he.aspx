@@ -22,7 +22,7 @@
                     <span class="fa fa-map-marker"></span>52/2F, Tổ 52, KP 4A, P. Tân Chánh Hiệp, Q.12,
                     Tp.HCM</p>
                 <p>
-                    <span class="fa fa-phone"></span>090 8465 466</p>
+                    <span class="fa fa-phone"></span>091 6304 038</p>
                 <p>
                     <span class="fa fa-envelope"></span><a href="mailto:hoangha@gmail.com">hoangha@gmail.com</a></p>
             </div>

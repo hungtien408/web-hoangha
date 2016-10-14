@@ -674,14 +674,14 @@ body .mobilep-right {
   width: 50%;
 }
     #menu li li a {
-        color:#747578;
+        color: #615f5f;
        background:none;
        padding:0;
        font-size:13px;
        font-weight: 600;
     }
     #menu li li > a:hover, #menu li li:hover > a, #menu li li.active > a {
-        color:#2928a8;
+        color:#02a752;
     }
 /*==============about-us=============*/
 
