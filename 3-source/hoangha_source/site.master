@@ -312,8 +312,8 @@
                                             Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
                                     </div>
                                     <div class="follow">
-                                        Follow us: <span>
-                                            <img src="assets/images/follow1.png" /></span> <span>
+                                        Follow us: <a href="https://www.facebook.com/remcuadephoangha/"><span>
+                                            <img src="assets/images/follow1.png" /></span></a> <span>
                                                 <img src="assets/images/follow2.png" /></span> <span>
                                                     <img src="assets/images/follow3.png" /></span>
                                     </div>
@@ -325,8 +325,8 @@
                 <div class="footer-bot">
                     <div class="container">
                         <p>
-                            &copy; 2016 Hoang Ha. All Right Reserved. <a target="_blank" href="http://www.tranlegroup.com">
-                                Thiet ke web Tran Le</a></p>
+                            &copy; 2016 Hoang Ha. All Right Reserved. Bản quyền thuộc Hoàng Hà<%--<a target="_blank" href="http://www.tranlegroup.com">
+                                Thiet ke web Tran Le</a>--%></p>
                     </div>
                 </div>
             </div>

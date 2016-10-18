@@ -1001,6 +1001,18 @@ body .mobilep-right {
   margin: 0 auto;
   max-width: 100%;
 }
+.icon-fb {
+    width: 27px;
+    float: right;
+    padding: 13px 8px 0 0;
+    overflow: hidden;
+    display: block;
+    margin-right: 5px;
+}
+.icon-fb img {
+    width: 100%;
+    display: block;
+}
 /*=============service============*/
 .service-bg > h1 {
   color: #111;

@@ -148,7 +148,7 @@
                                 </div>
                                 <div class="phone-book">
                                     <p>
-                                        Liên hệ đặt hàng <span>091 6304 038</span></p>
+                                        Liên hệ đặt hàng <span>091 6304 038</span><a class="icon-fb" href="https://www.facebook.com/remcuadephoangha/"><img src="assets/images/icon-fb.png" alt="" /></a></p>
                                 </div>
                                 <%--<div class="pl-google">
                                     <img src="assets/images/google.png" />
