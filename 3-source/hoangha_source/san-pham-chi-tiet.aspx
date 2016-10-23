@@ -146,9 +146,15 @@
                                     </ul>--%>
                                     <%# Eval("Description") %>
                                 </div>
+                                <div class="follow">
+                                        Follow us: <a target="_blank" href="https://www.facebook.com/remcuadephoangha/"><span>
+                                            <img src="assets/images/follow1.png" /></span></a> <span>
+                                                <img src="assets/images/follow2.png" /></span> <a target="_blank" href="https://plus.google.com/u/0/"><span>
+                                                    <img src="assets/images/follow3.png" /></span></a>
+                                    </div>
                                 <div class="phone-book">
                                     <p>
-                                        Liên hệ đặt hàng <span>091 6304 038</span><a class="icon-fb" href="https://www.facebook.com/remcuadephoangha/"><img src="assets/images/icon-fb.png" alt="" /></a></p>
+                                        Liên hệ đặt hàng <span>091 6304 038</span><%--<a class="icon-fb" href="https://www.facebook.com/remcuadephoangha/"><img src="assets/images/icon-fb.png" alt="" /></a>--%></p>
                                 </div>
                                 <%--<div class="pl-google">
                                     <img src="assets/images/google.png" />

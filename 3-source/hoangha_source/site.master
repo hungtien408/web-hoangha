@@ -312,10 +312,10 @@
                                             Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
                                     </div>
                                     <div class="follow">
-                                        Follow us: <a href="https://www.facebook.com/remcuadephoangha/"><span>
+                                        Follow us: <a target="_blank" href="https://www.facebook.com/remcuadephoangha/"><span>
                                             <img src="assets/images/follow1.png" /></span></a> <span>
-                                                <img src="assets/images/follow2.png" /></span> <span>
-                                                    <img src="assets/images/follow3.png" /></span>
+                                                <img src="assets/images/follow2.png" /></span> <a target="_blank" href="https://plus.google.com/u/0/"><span>
+                                                    <img src="assets/images/follow3.png" /></span></a>
                                     </div>
                                 </div>
                             </div>
