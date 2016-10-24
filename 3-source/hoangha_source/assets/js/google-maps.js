@@ -6,9 +6,9 @@ var rendererOptions = {
 var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 //Thay dia chi web
-var endAddress = "10.871788,1106.629052";
+var endAddress = "10.800272,106.721655";
 //Thay toa do
-var lat = 10.871788, long = 106.629052;
+var lat = 10.800272, long = 106.721655;
 window.onload = function () {
     //init direction
     directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
@@ -41,7 +41,7 @@ window.onload = function () {
         // Creating the content  
         var content = '<div class="box">' +
             '<h4>CÔNG TY TNHH XÂY DỰNG HOÀNG HÀ</h4>' +
-            '<p><span class="fa fa-map-marker"></span>52/2F, Tổ 52, KP 4A, P. Tân Chánh Hiệp, Q.12, Tp.HCM</p>' +            '<p><span class="fa fa-phone"></span>091 6304 038</p>' +            '<p><span class="fa fa-envelope"></span><a href="mailto:hoangha@gmail.com">hoangha@gmail.com</a></p>' +
+            '<p><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>' +            '<p><span class="fa fa-phone"></span>091 6304 038</p>' +            '<p><span class="fa fa-envelope"></span><a href="mailto:hoangha@gmail.com">hoangha@gmail.com</a></p>' +
         '</div>';
 
         // Setting the content of the InfoWindow

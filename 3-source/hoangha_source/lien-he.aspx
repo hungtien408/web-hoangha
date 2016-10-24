@@ -19,8 +19,7 @@
                 <h4 class="text-uppercase">
                     địa chỉ của chúng tôi</h4>
                 <p>
-                    <span class="fa fa-map-marker"></span>52/2F, Tổ 52, KP 4A, P. Tân Chánh Hiệp, Q.12,
-                    Tp.HCM</p>
+                    <span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>
                 <p>
                     <span class="fa fa-phone"></span>091 6304 038</p>
                 <p>

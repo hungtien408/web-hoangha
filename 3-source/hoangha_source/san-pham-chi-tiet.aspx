@@ -214,7 +214,7 @@
                             <h1>
                                 Show room:</h1>
                             <p>
-                                52/2F, Tổ 52, KP 4A, P. Tân Chánh Hiệp, Quận 12, Tp.HCM</p>
+                                649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>
                         </div>
                     </div>
                 </div>
