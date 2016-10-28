@@ -41,7 +41,7 @@ window.onload = function () {
         // Creating the content  
         var content = '<div class="box">' +
             '<h4>CÔNG TY TNHH XÂY DỰNG HOÀNG HÀ</h4>' +
-            '<p><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>' +            '<p><span class="fa fa-phone"></span>091 6304 038</p>' +            '<p><span class="fa fa-envelope"></span><a href="mailto:hoangha@gmail.com">hoangha@gmail.com</a></p>' +
+            '<p><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>' +            '<p><span class="fa fa-phone"></span>091 6304 038</p>' +            '<p><span class="fa fa-envelope"></span><a href="mailto:remcuadephoangha@gmail.com">remcuadephoangha@gmail.com</a></p>' +
         '</div>';
 
         // Setting the content of the InfoWindow

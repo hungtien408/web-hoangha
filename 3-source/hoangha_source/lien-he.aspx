@@ -23,7 +23,7 @@
                 <p>
                     <span class="fa fa-phone"></span>091 6304 038</p>
                 <p>
-                    <span class="fa fa-envelope"></span><a href="mailto:hoangha@gmail.com">hoangha@gmail.com</a></p>
+                    <span class="fa fa-envelope"></span><a href="mailto:remcuadephoangha@gmail.com">remcuadephoangha@gmail.com</a></p>
             </div>
         </div>
         <div class="col-md-6">
