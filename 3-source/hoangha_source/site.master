@@ -264,7 +264,7 @@
                             <div class="col-md-4">
                                 <div class="address-footer">
                                     <h1>
-                                        công ty TNHH xây dựng Hoàng Hà</h1>
+                                        công ty TNHH Hoàng Hà ADP</h1>
                                     <ul class="list-address">
                                         <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</li>
                                         <li><span class="fa fa-phone"></span>091 6304 038</li>
@@ -283,7 +283,7 @@
                                     <h1>
                                         showroom</h1>
                                     <ul class="list-address">
-                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</li>
+                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM (D7 Cư Xá Tân Cảng)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -366,7 +366,7 @@
                             <%--<p class="title-q">
                                 Lavender's factory</p>--%>
                             <p>
-                                <span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>
+                                <span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM (D7 Cư Xá Tân Cảng)</p>
                             <p>
                                 <span class="glyphicon glyphicon-phone-alt"></span>091 6304 038</p>
                             <p>
