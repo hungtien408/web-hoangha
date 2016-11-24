@@ -227,6 +227,12 @@ function myfunload() {
                  jQuery('.cloud-zoom').CloudZoom();
              });
          }
+         $(".fancybox").fancybox({
+             wrapCSS: 'zoom-fancybox',
+             padding: 10,
+             openEffect: 'elastic',
+             closeEffect: 'elastic'
+         });
 
     mymap();
     myfunsroll();

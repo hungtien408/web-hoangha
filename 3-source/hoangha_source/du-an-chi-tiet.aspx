@@ -34,38 +34,7 @@
                     EnableModelValidation="True">
                     <ItemTemplate>
                         <div class="warpper-detail">
-                            <%--<div class="detail-img desktop-showhide">
-                                <asp:ListView ID="lstProductImageBig" runat="server" DataSourceID="odsProductImage"
-                                    EnableModelValidation="True">
-                                    <ItemTemplate>
-                                        <div class="zoom-box">
-                                            <a id="zoom1" href='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "res/product/album/" + Eval("ImageName") : "assets/images/details-big-1.jpg" %>'
-                                                class="cloud-zoom" rel="showTitle: false, adjustY:0, adjustX:5">
-                                                <img id="Img1" class="img-responsive" alt='<%# Eval("ImageName") %>' src='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "~/res/product/album/thumbs/" + Eval("ImageName") : "~/assets/images/details-img-1.jpg" %>'
-                                                    runat="server" />
-                                            </a>
-                                        </div>
-                                    </ItemTemplate>
-                                    <LayoutTemplate>
-                                        <span runat="server" id="itemPlaceholder" />
-                                    </LayoutTemplate>
-                                </asp:ListView>
-                            </div>
-                            <div class="detail-img mobile-showhide">
-                                <div class="zoom-box">
-                                    <asp:ListView ID="lstProductImageSmall" runat="server" DataSourceID="odsProductImage"
-                                        EnableModelValidation="True">
-                                        <ItemTemplate>
-                                            <img class="img-responsive" alt='<%# Eval("ImageName") %>' src='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "~/res/product/album/thumbs/" + Eval("ImageName") : "~/assets/images/details-img-1.jpg" %>'
-                                                runat="server" />
-                                        </ItemTemplate>
-                                        <LayoutTemplate>
-                                            <span runat="server" id="itemPlaceholder" />
-                                        </LayoutTemplate>
-                                    </asp:ListView>
-                                </div>
-                            </div>--%>
-                            <div id="sliderDetails" class="detail-images">
+                            <%--<div id="sliderDetails" class="detail-images">
                                 <div class="wrap-images">
                                     <div class="detailimg-desktop">
                                         <asp:ListView ID="lstProductImageBig1" runat="server" DataSourceID="odsProductImage"
@@ -132,68 +101,48 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <%--<div id="sliderDetails" class="detail-images">
+                            </div>--%>
+                            <div id="sliderDetails" class="detail-images">
                                 <div class="wrap-images">
                                     <div class="detailimg-desktop">
-                                        <div class="zoom-box">
-                                        <a id="zoom1" href="assets/images/details-big-2.jpg" class="cloud-zoom" rel="showTitle: false, adjustY:0, adjustX:5">
-                                                 <img class="img-responsive" src="assets/images/details-img-2.jpg" alt=""/>
-                                         </a>
-                                            </div>
-                                    </div>
-                                    <div class="detailimg-mobile">
                                         <div class="slider-for">
-                                            <div class="slide">
-                                                <img src="assets/images/details-img-1.jpg" alt=""/>
-                                            </div>
-                                            <div class="slide">
-                                                <img src="assets/images/details-img-2.jpg" alt=""/>
-                                            </div>
-                                            <div class="slide">
-                                                <img src="assets/images/details-img-3.jpg" alt=""/>
-                                            </div>
-                                            <div class="slide">
-                                                <img src="assets/images/details-img-4.jpg" alt=""/>
-                                            </div>
-                                            <div class="slide">
-                                                <img src="assets/images/details-img-5.jpg" alt=""/>
-                                            </div>
+                                            <asp:ListView ID="lstProductImageBig" runat="server" DataSourceID="odsProductImage"
+                                                EnableModelValidation="True">
+                                                <ItemTemplate>
+                                                    <div class="slide">
+                                                        <a href="javascript:void(0);">
+                                                            <img id="Img3" alt='<%# Eval("ImageName") %>' src='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "~/res/product/album/thumbs/" + Eval("ImageName") : "~/assets/images/details-img-1.jpg" %>'
+                                                                runat="server" /></a> <a href='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "res/product/album/" + Eval("ImageName") : "assets/images/details-big-1.jpg" %>'
+                                                                    class="fancybox zoom-details" data-fancybox-group="gallery"><span>zoom</span></a>
+                                                    </div>
+                                                </ItemTemplate>
+                                                <LayoutTemplate>
+                                                    <span runat="server" id="itemPlaceholder" />
+                                                </LayoutTemplate>
+                                            </asp:ListView>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="wrapper-in">
                                     <div class="wrapper-7">
                                         <div class="slider-nav">
-                                            <div class="slide">
-                                                <a href='assets/images/details-big-1.jpg' data-img='assets/images/details-img-1.jpg' class='cloud-zoom-gallery small-img' title='Thumbnail 1' rel="useZoom: 'zoom1', smallImage: 'assets/images/details-img-1.jpg'">
-                                                    <span><img src="assets/images/details-small-1.jpg" alt=""/></span>
-                                                </a>
-                                            </div>
-                                            <div class="slide">
-                                                <a href='assets/images/details-big-2.jpg' data-img='assets/images/details-img-2.jpg' class='cloud-zoom-gallery small-img' title='Thumbnail 1' rel="useZoom: 'zoom1', smallImage: 'assets/images/details-img-2.jpg'">
-                                                    <span><img src="assets/images/details-small-2.jpg" alt=""/></span>
-                                                </a>
-                                            </div>
-                                            <div class="slide">
-                                                <a href='assets/images/details-big-3.jpg' data-img='assets/images/details-img-3.jpg' class='cloud-zoom-gallery small-img' title='Thumbnail 1' rel="useZoom: 'zoom1', smallImage: 'assets/images/details-img-3.jpg'">
-                                                    <span><img src="assets/images/details-small-3.jpg" alt=""/></span>
-                                                </a>
-                                            </div>
-                                            <div class="slide">
-                                                <a href='assets/images/details-big-4.jpg' data-img='assets/images/details-img-4.jpg' class='cloud-zoom-gallery small-img' title='Thumbnail 1' rel="useZoom: 'zoom1', smallImage: 'assets/images/details-img-4.jpg'">
-                                                    <span><img src="assets/images/details-small-4.jpg" alt=""/></span>
-                                                </a>
-                                            </div>
-                                            <div class="slide">
-                                                <a href='assets/images/details-big-5.jpg' data-img='assets/images/details-img-5.jpg' class='cloud-zoom-gallery small-img' title='Thumbnail 1' rel="useZoom: 'zoom1', smallImage: 'assets/images/details-img-5.jpg'">
-                                                    <span><img src="assets/images/details-small-5.jpg" alt=""/></span>
-                                                </a>
-                                            </div>
+                                            <asp:ListView ID="lstProductImageSmall" runat="server" DataSourceID="odsProductImage"
+                                                EnableModelValidation="True">
+                                                <ItemTemplate>
+                                                    <div class="slide">
+                                                        <a class="small-img" href="javascript:void(0);"><span>
+                                                            <img id="Img1" class="img-responsive" alt='<%# Eval("ImageName") %>' src='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "~/res/product/album/thumbs/" + Eval("ImageName") : "~/assets/images/details-img-1.jpg" %>'
+                                                                runat="server" /></span></a>
+                                                    </div>
+                                                </ItemTemplate>
+                                                <LayoutTemplate>
+                                                    <span runat="server" id="itemPlaceholder" />
+                                                </LayoutTemplate>
+                                            </asp:ListView>
                                         </div>
                                     </div>
                                 </div>
-                            </div>--%>
+                            </div>
                             <div class="detail-box">
                                 <div class="product-name">
                                     <%# Eval("ProductName") %></div>
@@ -209,7 +158,8 @@
                                 </div>
                                 <div class="phone-book">
                                     <p>
-                                        Liên hệ đặt hàng <span>091 6304 038</span><a class="icon-fb" href="https://www.facebook.com/remcuadephoangha/"><img src="assets/images/icon-fb.png" alt="" /></a></p>
+                                        Liên hệ đặt hàng <span>091 6304 038</span><a class="icon-fb" href="https://www.facebook.com/remcuadephoangha/"><img
+                                            src="assets/images/icon-fb.png" alt="" /></a></p>
                                 </div>
                                 <%--<div class="pl-google">
                                     <img src="assets/images/google.png" />

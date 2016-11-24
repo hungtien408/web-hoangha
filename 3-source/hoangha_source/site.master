@@ -1,4 +1,4 @@
-﻿  <%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
 
 <%@ Register TagPrefix="asp" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" %>
 <!DOCTYPE html>
@@ -17,6 +17,7 @@
     <link href="assets/styles/slick.css" rel="stylesheet" />
     <link href="assets/styles/jquery.bxslider.css" rel="stylesheet" />
     <link href="assets/styles/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/styles/jquery.fancybox.css" rel="stylesheet" />
     <link href="assets/styles/font.css" rel="stylesheet" />
     <link href="assets/styles/site.css" rel="stylesheet" type="text/css" />
     <link href="assets/styles/site-repond.css" rel="stylesheet" type="text/css" />
@@ -73,6 +74,9 @@
                 $('.list-product li a[href$="' + value3 + '"]').parents("li").addClass("active");
             }
         }
+    </script>
+    <script type='text/javascript'>
+        window._sbzq || function (e) { e._sbzq = []; var t = e._sbzq; t.push(["_setAccount", 54054]); var n = e.location.protocol == "https:" ? "https:" : "http:"; var r = document.createElement("script"); r.type = "text/javascript"; r.async = true; r.src = n + "//static.subiz.com/public/js/loader.js"; var i = document.getElementsByTagName("script")[0]; i.parentNode.insertBefore(r, i) } (window);
     </script>
 </head>
 <body>
@@ -266,9 +270,11 @@
                                     <h1>
                                         công ty TNHH Hoàng Hà ADP</h1>
                                     <ul class="list-address">
-                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</li>
+                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh,
+                                            Tp.HCM</li>
                                         <li><span class="fa fa-phone"></span>091 6304 038</li>
-                                        <li><span class="fa fa-envelope"></span><a href="mailto:remcuadephoangha@gmail.com">remcuadephoangha@gmail.com</a></li>
+                                        <li><span class="fa fa-envelope"></span><a href="mailto:remcuadephoangha@gmail.com">
+                                            remcuadephoangha@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -283,7 +289,8 @@
                                     <h1>
                                         showroom</h1>
                                     <ul class="list-address">
-                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM (D7 Cư Xá Tân Cảng)</li>
+                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh,
+                                            Tp.HCM (D7 Cư Xá Tân Cảng)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -312,8 +319,9 @@
                                     <div class="follow">
                                         Follow us: <a target="_blank" href="https://www.facebook.com/remcuadephoangha/"><span>
                                             <img src="assets/images/follow1.png" /></span></a> <span>
-                                                <img src="assets/images/follow2.png" /></span> <a target="_blank" href="https://plus.google.com/u/0/"><span>
-                                                    <img src="assets/images/follow3.png" /></span></a>
+                                                <img src="assets/images/follow2.png" /></span> <a target="_blank" href="https://plus.google.com/u/0/">
+                                                    <span>
+                                                        <img src="assets/images/follow3.png" /></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -366,14 +374,17 @@
                             <%--<p class="title-q">
                                 Lavender's factory</p>--%>
                             <p>
-                                <span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM (D7 Cư Xá Tân Cảng)</p>
+                                <span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh,
+                                Tp.HCM (D7 Cư Xá Tân Cảng)</p>
                             <p>
                                 <span class="glyphicon glyphicon-phone-alt"></span>091 6304 038</p>
                             <p>
                                 <span class="fa fa-envelope"></span><a href="mailTo:remcuadephoangha@gmail.com">remcuadephoangha@gmail.com</a></p>
                         </div>
                         <div class="col-md-12 pad-0">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7856677960015!2d106.72103482922998!3d10.800382999519066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a7b8d7bec5%3A0x91bcdde58653e0b7!2zRTggQmlzIMSQaeG7h24gQmnDqm4gUGjhu6csIFBoxrDhu51uZyAyNSwgQsOsbmggVGjhuqFuaCwgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1477275069365" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7856677960015!2d106.72103482922998!3d10.800382999519066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a7b8d7bec5%3A0x91bcdde58653e0b7!2zRTggQmlzIMSQaeG7h24gQmnDqm4gUGjhu6csIFBoxrDhu51uZyAyNSwgQsOsbmggVGjhuqFuaCwgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1477275069365"
+                                width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>
@@ -399,6 +410,7 @@
     <script src="assets/js/jquery.bgbox.js" type="text/javascript"></script>
     <script src="assets/js/cloud-zoom.js"></script>
     <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/jquery.bxslider.min.js"></script>
     <script src="assets/js/jquery.menu.level.js"></script>
