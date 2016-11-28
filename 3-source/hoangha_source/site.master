@@ -270,7 +270,7 @@
                                     <h1>
                                         công ty TNHH Hoàng Hà ADP</h1>
                                     <ul class="list-address">
-                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh,
+                                        <li><span class="fa fa-map-marker"></span>649/36/24 Điện Biên Phủ, P.25. Q.Bình Thạnh,
                                             Tp.HCM</li>
                                         <li><span class="fa fa-phone"></span>091 6304 038</li>
                                         <li><span class="fa fa-envelope"></span><a href="mailto:remcuadephoangha@gmail.com">
@@ -289,7 +289,7 @@
                                     <h1>
                                         showroom</h1>
                                     <ul class="list-address">
-                                        <li><span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh,
+                                        <li><span class="fa fa-map-marker"></span>649/36/24 Điện Biên Phủ, P.25. Q.Bình Thạnh,
                                             Tp.HCM (D7 Cư Xá Tân Cảng)</li>
                                     </ul>
                                 </div>
@@ -317,7 +317,7 @@
                                             Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
                                     </div>
                                     <div class="follow">
-                                        Follow us: <a target="_blank" href="https://www.facebook.com/remcuadephoangha/"><span>
+                                        Follow us: <a target="_blank" href="https://www.facebook.com/remcuahoangha/"><span>
                                             <img src="assets/images/follow1.png" /></span></a> <span>
                                                 <img src="assets/images/follow2.png" /></span> <a target="_blank" href="https://plus.google.com/u/0/">
                                                     <span>
@@ -374,7 +374,7 @@
                             <%--<p class="title-q">
                                 Lavender's factory</p>--%>
                             <p>
-                                <span class="fa fa-map-marker"></span>649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh,
+                                <span class="fa fa-map-marker"></span>649/36/24 Điện Biên Phủ, P.25. Q.Bình Thạnh,
                                 Tp.HCM (D7 Cư Xá Tân Cảng)</p>
                             <p>
                                 <span class="glyphicon glyphicon-phone-alt"></span>091 6304 038</p>
@@ -382,7 +382,7 @@
                                 <span class="fa fa-envelope"></span><a href="mailTo:remcuadephoangha@gmail.com">remcuadephoangha@gmail.com</a></p>
                         </div>
                         <div class="col-md-12 pad-0">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7856677960015!2d106.72103482922998!3d10.800382999519066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a7b8d7bec5%3A0x91bcdde58653e0b7!2zRTggQmlzIMSQaeG7h24gQmnDqm4gUGjhu6csIFBoxrDhu51uZyAyNSwgQsOsbmggVGjhuqFuaCwgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1477275069365"
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1441196922933!2d106.71946631534774!3d10.80027199230532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ4JzAxLjAiTiAxMDbCsDQzJzE4LjAiRQ!5e0!3m2!1sen!2s!4v1480315346945"
                                 width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen>
                             </iframe>
                         </div>
