@@ -1182,7 +1182,7 @@
         TypeName="TLLib.ProductCategory">
         <SelectParameters>
             <asp:Parameter DefaultValue="35" Name="parentID" Type="Int32" />
-            <asp:Parameter DefaultValue="2" Name="increaseLevelCount" Type="Int32" />
+            <asp:Parameter DefaultValue="3" Name="increaseLevelCount" Type="Int32" />
             <asp:Parameter Name="IsShowOnMenu" Type="String" />
             <asp:Parameter Name="IsShowOnHomePage" Type="String" />
         </SelectParameters>

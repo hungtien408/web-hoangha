@@ -162,7 +162,7 @@
                             <h1>
                                 Show room:</h1>
                             <p>
-                                649/36/29 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>
+                                649/36/24 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>
                         </div>
                     </div>
                 </div>
