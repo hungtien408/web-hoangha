@@ -2,10 +2,21 @@
     CodeFile="dich-vu-chi-tiet.aspx.cs" Inherits="dich_vu_chi_tiet" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <title>Hoàng Hà</title>
-    <meta name="description" content="Hoàng Hà" />
+    <link rel="canonical" href='<%= Request.Url.Scheme + "://" + Page.Request.Url.Host.ToString() + "/" + Request.Url.AbsolutePath.Substring(Request.Url.AbsolutePath.LastIndexOf("/") + 1) %>' />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content='<%= hdnTitle.Value %>' />
+    <meta property="og:description" content='<%= hdnDescription.Value %>' />
+    <meta property="og:url" content='<%= Request.Url.Scheme + "://" + Page.Request.Url.Host.ToString() + "/" + Request.Url.AbsolutePath.Substring(Request.Url.AbsolutePath.LastIndexOf("/") + 1) %>' />
+    <meta property="og:site_name" content="RÈM CỬA ĐẸP HOÀNG HÀ" />
+    <meta property="og:image" content='<%= Request.Url.Scheme + "://" + Page.Request.Url.Host.ToString() + "/" + ("res/article/"+ hdnImageName.Value)  %>' />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="451" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <asp:HiddenField ID="hdnTitle" runat="server" />
+    <asp:HiddenField ID="hdnDescription" runat="server" />
+    <asp:HiddenField ID="hdnImageName" runat="server" />
     <div class="container">
         <div id="site">
             <asp:HiddenField ID="hdnArticleCategoryID" runat="server" />

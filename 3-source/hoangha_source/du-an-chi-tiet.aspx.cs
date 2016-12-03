@@ -32,6 +32,9 @@ public partial class san_pham_chi_tiet : System.Web.UI.Page
                 //hdnSanPham.Value = progressTitle(dv[0]["ProductCategoryName"].ToString()) + "-pci-" + dv[0]["ProductCategoryID"].ToString() + ".aspx";
                 hdnlink.Value = progressTitle(dv[0]["ProductCategoryName"].ToString()) + "-pci-" + dv[0]["CategoryID"].ToString();
 
+                hdnTitle.Value = dv[0]["ProductName"].ToString() + "- Rèm cửa đẹp Hoàng Hà";
+                hdnDescription.Value = dv[0]["MetaDescription"].ToString();
+                hdnImageName.Value = dv[0]["ImageName"].ToString();
             }
             else
             {

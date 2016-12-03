@@ -27,6 +27,10 @@ public partial class tin_tuc_chi_tiet : System.Web.UI.Page
                 strDescription = Server.HtmlDecode(row["Description"].ToString());
                 strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString());
                 strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString());
+
+                hdnTitle.Value = dv[0]["ArticleTitle"].ToString() + "- Rèm cửa đẹp Hoàng Hà";
+                hdnDescription.Value = dv[0]["MetaDescription"].ToString();
+                hdnImageName.Value = dv[0]["ImageName"].ToString();
             }
             else
             {

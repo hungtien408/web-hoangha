@@ -31,6 +31,9 @@ public partial class dich_vu_chi_tiet : System.Web.UI.Page
                 strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString());
 
                 //hdnSanPham.Value = progressTitle(dv[0]["ProductCategoryName"].ToString()) + "-pci-" + dv[0]["ProductCategoryID"].ToString() + ".aspx";
+                hdnTitle.Value = dv[0]["ArticleTitle"].ToString() + "- Rèm cửa đẹp Hoàng Hà";
+                hdnDescription.Value = dv[0]["MetaDescription"].ToString();
+                hdnImageName.Value = dv[0]["ImageName"].ToString();
             }
             else
             {
@@ -38,6 +41,7 @@ public partial class dich_vu_chi_tiet : System.Web.UI.Page
                 strDescription = "";
                 strMetaDescription = "";
             }
+            
             Page.Title = !string.IsNullOrEmpty(strMetaTitle) ? strMetaTitle : strTitle;
             var meta = new HtmlMeta() { Name = "description", Content = !string.IsNullOrEmpty(strMetaDescription) ? strMetaDescription : strDescription };
             Header.Controls.Add(meta);
