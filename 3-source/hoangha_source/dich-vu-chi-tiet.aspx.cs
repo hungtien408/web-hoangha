@@ -24,11 +24,11 @@ public partial class dich_vu_chi_tiet : System.Web.UI.Page
                 if (dv != null && dv.Count <= 0) return;
                 var row = dv[0];
 
-                hdnArticleCategoryID.Value = dv[0]["ArticleCategoryID"].ToString();
-                strTitle = Server.HtmlDecode(row["ArticleTitle"].ToString());
-                strDescription = Server.HtmlDecode(row["Description"].ToString());
-                strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString());
-                strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString());
+                hdnArticleCategoryID.Value = dv[0]["ArticleCategoryID"].ToString() + " - Rèm cửa đẹp Hoàng Hà";
+                strTitle = Server.HtmlDecode(row["ArticleTitle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strDescription = Server.HtmlDecode(row["Description"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
 
                 //hdnSanPham.Value = progressTitle(dv[0]["ProductCategoryName"].ToString()) + "-pci-" + dv[0]["ProductCategoryID"].ToString() + ".aspx";
                 hdnTitle.Value = dv[0]["ArticleTitle"].ToString() + "- Rèm cửa đẹp Hoàng Hà";

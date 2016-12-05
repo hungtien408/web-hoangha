@@ -13,8 +13,8 @@ public partial class gioi_thieu : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            Page.Title = "Giới Thiệu";
-            var meta = new HtmlMeta() { Name = "description", Content = "Giới Thiệu" };
+            Page.Title = "Giới Thiệu - Rèm cửa đẹp Hoàng Hà";
+            var meta = new HtmlMeta() { Name = "description", Content = "Giới Thiệu - Rèm cửa đẹp Hoàng Hà" };
             Header.Controls.Add(meta);
         }
     }

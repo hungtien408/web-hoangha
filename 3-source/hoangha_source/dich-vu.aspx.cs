@@ -39,7 +39,7 @@ public partial class dich_vu : System.Web.UI.Page
             }
             else
             {
-                strTitle = strMetaTitle = "Dịch Vụ";
+                strTitle = strMetaTitle = "Dịch Vụ - Rèm cửa đẹp Hoàng Hà";
                 strDescription = "";
                 strMetaDescription = "";
             }

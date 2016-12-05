@@ -78,17 +78,19 @@
         {
             string host = app.Request.Url.Host.ToLower();
 
-            if (!host.StartsWith("www") && !host.StartsWith("localhost"))
+            if (host.StartsWith("www") && !host.StartsWith("localhost"))
             {
                 string requestUrl = app.Request.RawUrl.ToLower();
                 string scheme = app.Request.Url.Scheme;
                 requestUrl = requestUrl.EndsWith("default.aspx") ? "" : requestUrl;
-                string newURL = scheme + "://www." + host + requestUrl;
+                string newURL = scheme + host.Replace("www.", "://") + requestUrl;
 
                 app.Context.Response.RedirectLocation = newURL;
                 app.Context.Response.StatusCode = 301;
                 app.Context.Response.End();
             }
         }
+
+        
     }
 </script>

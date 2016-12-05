@@ -38,7 +38,7 @@ public partial class tin_tuc : System.Web.UI.Page
             }
             else
             {
-                strTitle = strMetaTitle = "Tin Tức";
+                strTitle = strMetaTitle = "Tin Tức - Rèm cửa đẹp Hoàng Hà";
                 strDescription = "";
                 strMetaDescription = "";
             }

@@ -24,10 +24,10 @@ public partial class san_pham_chi_tiet : System.Web.UI.Page
                 if (dv != null && dv.Count <= 0) return;
                 var row = dv[0];
 
-                strTitle = Server.HtmlDecode(row["ProductName"].ToString());
-                strDescription = Server.HtmlDecode(row["Description"].ToString());
-                strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString());
-                strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString());
+                strTitle = Server.HtmlDecode(row["ProductName"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strDescription = Server.HtmlDecode(row["Description"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
 
                 //hdnSanPham.Value = progressTitle(dv[0]["ProductCategoryName"].ToString()) + "-pci-" + dv[0]["ProductCategoryID"].ToString() + ".aspx";
                 hdnlink.Value = progressTitle(dv[0]["ProductCategoryName"].ToString()) + "-pci-" + dv[0]["CategoryID"].ToString();

@@ -23,10 +23,10 @@ public partial class tin_tuc_chi_tiet : System.Web.UI.Page
                 if (dv != null && dv.Count <= 0) return;
                 var row = dv[0];
 
-                strTitle = Server.HtmlDecode(row["ArticleTitle"].ToString());
-                strDescription = Server.HtmlDecode(row["Description"].ToString());
-                strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString());
-                strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString());
+                strTitle = Server.HtmlDecode(row["ArticleTitle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strDescription = Server.HtmlDecode(row["Description"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
+                strMetaDescription = Server.HtmlDecode(row["MetaDescription"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
 
                 hdnTitle.Value = dv[0]["ArticleTitle"].ToString() + "- Rèm cửa đẹp Hoàng Hà";
                 hdnDescription.Value = dv[0]["MetaDescription"].ToString();

@@ -2,6 +2,7 @@
     CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>Rèm cửa đẹp Hoàng Hà</title>
     <meta name="title" content="Rèm cửa đẹp Hoàng Hà" />
     <meta name="description" content="Chuyên cung cấp rèm cửa đẹp, rèm cao cấp, rèm cửa văn phòng, sàn gỗ, giấy dán tường tại HCM với nhiều mẫu đa dạng, chất liệu, màu sắc phong phú.LH 0916 304 038" />
     <meta name="keyword" content="Rèm cửa đẹp, rèm cao cấp, rèm cửa màn sáo, sàn gỗ, giấy dán tường, rem cua dep, rem cua van phong dep" />
