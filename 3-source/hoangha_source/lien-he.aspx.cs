@@ -18,7 +18,7 @@ public partial class lien_he : System.Web.UI.Page
         msg += "<b>Họ tên: </b>" + txtFullName.Text.Trim().ToString() + "<br />";
         msg += "<b>Email: </b>" + txtEmail.Text.Trim().ToString() + "<br />";
         msg += "<b>Nội dung: </b>" + txtNoiDung.Text.Trim().ToString();
-        Common.SendMail("smtp.gmail.com", 587, "webmastersendmail0401@gmail.com", "web123master", "remcuadephoangha@gmail.com", "", "Contact HOÀNG HÀ", msg, true);
+        Common.SendMail("smtp.gmail.com", 587, "webmastersendmail0401@gmail.com", "web123master", "ngocbau36@gmail.com", "", "Contact HOÀNG HÀ", msg, true);
     }
     protected void btGui_Click(object sender, EventArgs e)
     {
