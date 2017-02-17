@@ -24,7 +24,7 @@ public partial class dich_vu_chi_tiet : System.Web.UI.Page
                 if (dv != null && dv.Count <= 0) return;
                 var row = dv[0];
 
-                hdnArticleCategoryID.Value = dv[0]["ArticleCategoryID"].ToString() + " - Rèm cửa đẹp Hoàng Hà";
+                hdnArticleCategoryID.Value = dv[0]["ArticleCategoryID"].ToString();
                 strTitle = Server.HtmlDecode(row["ArticleTitle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
                 strDescription = Server.HtmlDecode(row["Description"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
                 strMetaTitle = Server.HtmlDecode(row["MetaTittle"].ToString()) + " - Rèm cửa đẹp Hoàng Hà";
