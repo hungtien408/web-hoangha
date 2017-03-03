@@ -271,12 +271,12 @@
     .wrapper-info .head-title h1 {
         margin-bottom:0;
     }
-     .wrap-images .detailimg-desktop {
+     /*.wrap-images .detailimg-desktop {
         position: absolute;
         opacity: 0;
 	    filter:alpha(opacity=0); 
         z-index: -1;
-    }
+    }*/
     .wrap-images .detailimg-mobile {
         position: relative;
         opacity: 1;
