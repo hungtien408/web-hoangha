@@ -47,7 +47,7 @@ public partial class site : System.Web.UI.MasterPage
         if (txtNewLetter.Text != "")
         {
             new TLLib.Newsletter().NewsletterInsert(txtNewLetter.Text.ToString().Trim());
-            ScriptManager.RegisterClientScriptBlock(Page, Page.GetType(), "runtime", " $(document).ready(function () {alert('Cám ơn bạn đã đăng ký nhận tin của White Palace !')});", true);
+            ScriptManager.RegisterClientScriptBlock(Page, Page.GetType(), "runtime", " $(document).ready(function () {alert('Cám ơn bạn đã đăng ký nhận tin của Hoàng Hà !')});", true);
         }
         txtNewLetter.Text = "";
     }

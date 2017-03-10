@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true"
     CodeFile="du-an-chi-tiet.aspx.cs" Inherits="san_pham_chi_tiet" %>
-
+<%@ Register Src="~/uc/contact-control.ascx" TagPrefix="uc1" TagName="contactcontrol" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link rel="canonical" href='<%= Request.Url.Scheme + "://" + Page.Request.Url.Host.ToString() + "/" + Request.Url.AbsolutePath.Substring(Request.Url.AbsolutePath.LastIndexOf("/") + 1) %>' />
     <meta property="og:locale" content="vi_VN" />
@@ -214,27 +214,7 @@
             </div>
             <div class="colAside">
                 <div class="contact-box">
-                    <div class="phone-box">
-                        <div class="phonebox">
-                            Liên hệ tư vấn
-                            <p>
-                                091 6304 038</p>
-                        </div>
-                    </div>
-                    <div class="address-box">
-                        <div class="addressbox">
-                            <h1>
-                                Xưởng sản xuất:</h1>
-                            <p>
-                                52/2F, Tổ 52, KP 4A, P. Tân Chánh Hiệp, Quận 12, Tp.HCM</p>
-                        </div>
-                        <div class="addressbox">
-                            <h1>
-                                Show room:</h1>
-                            <p>
-                                649/36/24 Điện Biên Phủ, P.25. Q.Bình Thạnh, Tp.HCM</p>
-                        </div>
-                    </div>
+                    <uc1:contactcontrol runat="server" ID="contactcontrol1" />
                 </div>
                 <div class="wrapper-info">
                     <div class="head-title">
