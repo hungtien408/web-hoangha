@@ -1968,3 +1968,11 @@ body .mobilep-right {
         -o-transform: scale(1);
         transform: scale(1);
 }
+.table.list-info > thead > tr > th, .table.list-info > tbody > tr > th, .table.list-info > tfoot > tr > th, .table.list-info > thead > tr > td, .table.list-info > tbody > tr > td, .table.list-info > tfoot > tr > td
+{
+    border-top:none;
+}
+.table.list-info th
+{
+    width:140px;
+}
