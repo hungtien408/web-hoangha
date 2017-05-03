@@ -117,7 +117,7 @@
                             </div>--%>
                             <div id="sliderDetails" class="detail-images">
                                 <div class="wrap-images">
-                                    <div class="detailimg-desktop">
+                                    <div class="detailimg-desktop" style="display:block !important;">
                                         <div class="slider-for">
                                             <asp:ListView ID="lstProductImageBig" runat="server" DataSourceID="odsProductImage"
                                                 EnableModelValidation="True">
