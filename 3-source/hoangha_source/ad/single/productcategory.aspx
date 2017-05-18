@@ -468,7 +468,7 @@
         </asp:RadGrid>
     </asp:RadAjaxPanel>
     <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" DeleteMethod="ProductCategoryDelete"
-        SelectMethod="ProductCategorySelectAll" TypeName="TLLib.ProductCategory" UpdateMethod="ProductCategoryUpdate"
+        SelectMethod="ProductCategorySelectAll2" TypeName="TLLib.ProductCategory" UpdateMethod="ProductCategoryUpdate"
         InsertMethod="ProductCategoryInsert">
         <DeleteParameters>
             <asp:Parameter Name="ProductCategoryID" Type="String" />

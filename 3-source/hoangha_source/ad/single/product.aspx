@@ -1178,7 +1178,7 @@
             <asp:Parameter Name="IsAvailable" Type="String" />
         </UpdateParameters>
     </asp:ObjectDataSource>
-    <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="ProductCategorySelectAll"
+    <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="ProductCategorySelectAll2"
         TypeName="TLLib.ProductCategory">
         <SelectParameters>
             <asp:Parameter DefaultValue="35" Name="parentID" Type="Int32" />

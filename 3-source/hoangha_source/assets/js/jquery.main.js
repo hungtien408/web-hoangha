@@ -49,6 +49,18 @@ function myfunload() {
     $(".nav-tabs li:first-child").addClass("active");
     $(".nav-tabs li:first-child a").trigger("click");
     $(".tab-content .tab-pane:first-child").addClass("active");
+    $(".head-title .nav-tabs li a").click(function () {
+        var href = $(this).attr("href");
+        var parent = $(this).parents(".wrapper-product");
+        var contentContainer = parent.find('.product-main .tab-content .tab-pane');
+        if (contentContainer) {
+            contentContainer.removeClass('active');
+            var activeElement = contentContainer.filter(href);
+            if (activeElement) {
+                activeElement.addClass('active');
+            }
+        }
+    });
     if ($('#silderPartner').size() == 1)
         var silderPartner = $('#silderPartner').imagesLoaded(function () {
             silderPartner.slick({

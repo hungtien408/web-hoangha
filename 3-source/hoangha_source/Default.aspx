@@ -210,7 +210,7 @@
                                 Type="Int32" />
                             <asp:Parameter DefaultValue="1" Name="increaseLevelCount" Type="Int32" />
                             <asp:Parameter Name="IsShowOnMenu" Type="String" />
-                            <asp:Parameter Name="IsShowOnHomePage" Type="String" />
+                            <asp:Parameter DefaultValue="True" Name="IsShowOnHomePage" Type="String" />
                         </SelectParameters>
                     </asp:ObjectDataSource>
                     <!--check man vai vs man sao thi hien thi danh muc xuat xu-->
@@ -484,7 +484,7 @@
                                                 Type="Int32" />
                                             <asp:Parameter DefaultValue="1" Name="increaseLevelCount" Type="Int32" />
                                             <asp:Parameter Name="IsShowOnMenu" Type="String" />
-                                            <asp:Parameter Name="IsShowOnHomePage" Type="String" />
+                                            <asp:Parameter DefaultValue="True" Name="IsShowOnHomePage" Type="String" />
                                         </SelectParameters>
                                     </asp:ObjectDataSource>
                                 </li>
@@ -598,7 +598,7 @@
                                                 Type="Int32" />
                                             <asp:Parameter DefaultValue="1" Name="increaseLevelCount" Type="Int32" />
                                             <asp:Parameter Name="IsShowOnMenu" Type="String" />
-                                            <asp:Parameter Name="IsShowOnHomePage" Type="String" />
+                                            <asp:Parameter DefaultValue="True" Name="IsShowOnHomePage" Type="String" />
                                         </SelectParameters>
                                     </asp:ObjectDataSource>
                                 </li>
@@ -616,7 +616,7 @@
                                     Type="Int32" />
                                 <asp:Parameter DefaultValue="1" Name="increaseLevelCount" Type="Int32" />
                                 <asp:Parameter Name="IsShowOnMenu" Type="String" />
-                                <asp:Parameter Name="IsShowOnHomePage" Type="String" />
+                                <asp:Parameter DefaultValue="True" Name="IsShowOnHomePage" Type="String" />
                             </SelectParameters>
                         </asp:ObjectDataSource>
                         <div class="img-product">
